@@ -8,12 +8,8 @@ function loadImage(id, targetId) {
     imageToLoad = el.src;
   } else {
     imageToLoad = el.currentSrc;
-  }  
-  console.log(imageToLoad);
-  
+  }    
   if (imageToLoad) { 
-  console.log(imageToLoad);
-    
     var img = new Image();
     img.src = imageToLoad;
     img.onload = function() {
