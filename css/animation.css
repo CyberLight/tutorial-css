@@ -99,9 +99,6 @@
 .picture-shadow,
 .picture-image {
   animation-duration: 750ms;
-  /*animation-timing-function: cubic-bezier(0, 1, 0.75, 1.25);*/
-  /*animation-timing-function: cubic-bezier(0, 1, 0, 1.25);*/
-  /*animation-timing-function: cubic-bezier(0, 1, 0.25, 1.25);*/
   animation-timing-function: cubic-bezier(0, 0.5, 0.25, 1.25);
 }
 
@@ -204,5 +201,5 @@
 }
 
 .wallpaper.is-loaded {
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
